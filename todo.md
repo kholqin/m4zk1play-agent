@@ -28,3 +28,7 @@
 - [x] Pastikan katalog model OpenRouter dimuat dinamis dari `/models`, bukan daftar hardcode 516 model
 - [x] Tambahkan catatan bahwa API key yang dibagikan harus dicabut/dirotasi oleh pemiliknya
 - [x] Validasi ulang source, secret scan, checkpoint, dan sinkronisasi repository setelah perubahan OpenRouter
+
+- [x] Gunakan implementasi `fetch` langsung ke OpenRouter `/chat/completions` dengan header API key dari SecureStore, tanpa hardcode key
+- [x] Pertahankan pemuatan seluruh katalog model yang tersedia secara dinamis melalui `/models`
+- [x] Validasi ulang request fetch, tipe respons, secret scan, dan checkpoint setelah perubahan
