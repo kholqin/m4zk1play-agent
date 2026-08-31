@@ -41,3 +41,8 @@
 - [x] Tambahkan fungsi test connection OpenRouter dengan request ringan dan tanpa menyimpan key sebelum validasi
 - [x] Tambahkan UI tombol uji koneksi, loading, status berhasil/gagal, dan pesan error aman
 - [x] Validasi test connection, dokumentasi, secret scan, dan checkpoint terbaru
+
+- [ ] Periksa ulang source dan status checkpoint final sebelum sinkronisasi
+- [ ] Commit dan push perubahan terakhir ke repository GitHub privat
+- [ ] Jalankan APK release melalui tombol Publish pada UI proyek
+- [ ] Verifikasi link repository dan status artefak APK release
