@@ -40,6 +40,21 @@ export async function fetchModels(apiKey: string): Promise<OpenRouterModel[]> {
 }
 
 /** Sends a direct chat completion request; the API key is supplied at runtime from SecureStore. */
+export async function testConnection(apiKey: string, model: string): Promise<string> {
+  const response = await fetch(`${OPENROUTER_BASE_URL}/chat/completions`, {
+    method: "POST",
+    headers: requestHeaders(apiKey),
+    body: JSON.stringify({
+      model: model || DEFAULT_MODEL,
+      messages: [{ role: "user", content: "Reply with exactly: CONNECTION_OK" }],
+      max_tokens: 8,
+      temperature: 0,
+    }),
+  });
+  const payload = await readJson<CompletionResponse>(response);
+  return payload.choices?.[0]?.message?.content?.trim() || "Connection berhasil";
+}
+
 export async function completeChat(apiKey: string, model: string, messages: ChatMessage[]) {
   const response = await fetch(`${OPENROUTER_BASE_URL}/chat/completions`, {
     method: "POST",

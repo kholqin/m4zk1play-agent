@@ -37,3 +37,7 @@
 - [x] Tampilkan status loading, error, jumlah model, pencarian, refresh, dan model aktif
 - [x] Pastikan pilihan model yang tersedia tersimpan lokal dan tidak mengandung API key
 - [x] Validasi fitur Model Availability dan simpan checkpoint terbaru
+
+- [x] Tambahkan fungsi test connection OpenRouter dengan request ringan dan tanpa menyimpan key sebelum validasi
+- [x] Tambahkan UI tombol uji koneksi, loading, status berhasil/gagal, dan pesan error aman
+- [x] Validasi test connection, dokumentasi, secret scan, dan checkpoint terbaru
