@@ -32,3 +32,8 @@
 - [x] Gunakan implementasi `fetch` langsung ke OpenRouter `/chat/completions` dengan header API key dari SecureStore, tanpa hardcode key
 - [x] Pertahankan pemuatan seluruh katalog model yang tersedia secara dinamis melalui `/models`
 - [x] Validasi ulang request fetch, tipe respons, secret scan, dan checkpoint setelah perubahan
+
+- [x] Tambahkan layar Model Availability yang menampilkan katalog model aktual dari OpenRouter
+- [x] Tampilkan status loading, error, jumlah model, pencarian, refresh, dan model aktif
+- [x] Pastikan pilihan model yang tersedia tersimpan lokal dan tidak mengandung API key
+- [x] Validasi fitur Model Availability dan simpan checkpoint terbaru
