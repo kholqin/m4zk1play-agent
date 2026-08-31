@@ -19,7 +19,12 @@
 - [x] Tulis BACA.md sebagai panduan penggunaan dan arsitektur
 - [x] Jalankan TypeScript check, lint, test, dan pemeriksaan konfigurasi Expo
 - [ ] Build APK Android release dan verifikasi artefaknya
-- [ ] Buat repository GitHub privat
-- [ ] Commit seluruh source dan dokumentasi
+- [x] Buat repository GitHub privat
+- [x] Commit seluruh source dan dokumentasi
 - [ ] Buat GitHub release dengan APK sebagai asset
 - [ ] Lakukan pemeriksaan akhir untuk error, bug yang terlihat, secret, dan link release
+
+- [x] Jadikan `openai/gpt-4o` sebagai model default tanpa menyimpan API key pengguna di source
+- [x] Pastikan katalog model OpenRouter dimuat dinamis dari `/models`, bukan daftar hardcode 516 model
+- [x] Tambahkan catatan bahwa API key yang dibagikan harus dicabut/dirotasi oleh pemiliknya
+- [x] Validasi ulang source, secret scan, checkpoint, dan sinkronisasi repository setelah perubahan OpenRouter

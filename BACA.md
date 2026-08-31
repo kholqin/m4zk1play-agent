@@ -8,11 +8,11 @@ M4ZK1pLay Agent adalah workspace AI di Android untuk membantu keamanan siber def
 
 Pada peluncuran pertama, baca disclaimer lalu pilih `I Understand` jika kamu menyetujui penggunaan berizin. Tombol `Exit` tidak mematikan proses Android secara paksa; tombol itu hanya menjelaskan bahwa aplikasi dapat ditutup melalui sistem operasi.
 
-Masuk ke `Settings`, tempel API key OpenRouter, dan tekan `Simpan key`. Key tidak ditampilkan ulang setelah disimpan. Jika kamu ingin mengganti key, isi field yang sama dengan key baru. Jika ingin menghapusnya, tekan `Hapus`.
+Masuk ke `Settings`, tempel API key OpenRouter, dan tekan `Simpan key`. Key tidak ditampilkan ulang setelah disimpan. Jika kamu ingin mengganti key, isi field yang sama dengan key baru. Jika ingin menghapusnya, tekan `Hapus`. Jika sebuah key pernah dibagikan di chat, issue, screenshot, atau repository, anggap key tersebut sudah bocor: cabut/revoke dan buat key baru pada OpenRouter sebelum digunakan.
 
 ## Memilih model
 
-Buka `Tools` dan tekan refresh pada bagian `Model browser`. Jika jaringan dan key valid, aplikasi mengambil model dari endpoint OpenRouter. Gunakan field pencarian untuk mempersempit hasil, lalu tekan baris model untuk menjadikannya aktif. Model aktif tampil pada metadata Chat dan kartu Dashboard.
+Buka `Tools` dan tekan refresh pada bagian `Model browser`. Jika jaringan dan key valid, aplikasi mengambil katalog model secara dinamis dari endpoint OpenRouter. Gunakan field pencarian untuk mempersempit hasil, lalu tekan baris model untuk menjadikannya aktif. Versi ini menggunakan `openai/gpt-4o` sebagai model awal, tetapi pengguna dapat memilih model lain yang tersedia. Model aktif tampil pada metadata Chat dan kartu Dashboard.
 
 ## Menggunakan Chat
 

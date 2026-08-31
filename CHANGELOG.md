@@ -4,6 +4,14 @@ Semua perubahan penting pada M4ZK1pLay Agent dicatat di dokumen ini. Format meng
 
 ## [Unreleased]
 
+### Changed
+
+Model awal aplikasi ditetapkan ke `openai/gpt-4o`, sementara daftar model tetap diambil secara dinamis dari endpoint OpenRouter `/models`. API key pengguna tetap wajib dimasukkan melalui Settings dan tidak pernah ditanamkan ke APK.
+
+### Security notice
+
+API key yang pernah dibagikan di chat, issue, screenshot, atau repository harus dianggap terekspos dan segera dicabut/dirotasi oleh pemiliknya.
+
 ### Rencana berikutnya
 
 Pengembangan lanjutan dapat mencakup streaming SSE yang lebih granular, ekspor percakapan, dukungan attachment dengan sanitasi, pengujian integrasi OpenRouter yang dimock, serta pencarian GitHub berbasis API publik dengan rate-limit handling.
